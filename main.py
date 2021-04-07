@@ -4,7 +4,7 @@ import pandas as pd
 # Working with Big Data
 
 df = pd.read_csv('pokemon_data.csv')
-#print(df.head())
+print(df.head())
 #print(df.tail())
 
 #df_xlsx = pd.read_excel('pokemon_data.xlsx')
