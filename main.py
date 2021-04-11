@@ -10,8 +10,8 @@ print(df.head())
 #df_xlsx = pd.read_excel('pokemon_data.xlsx')
 #print(df_xlsx.head())
 
-#df_txt = pd.read_csv('pokemon_data.txt', delimiter='\t')
-#print(df_txt.tail())
+df_txt = pd.read_csv('pokemon_data.txt', delimiter='\t')
+print(df_txt.tail())
 
 ## Read Headers
 #print(df.columns)
